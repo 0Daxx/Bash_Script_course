@@ -258,8 +258,24 @@ elif [[ false ]]; then
 
 - # chaining : echo 'hi' && echo 'hihi'
 
+## Lesson 16 
+
+```terminal
+for thing in {1..5}; do 
+    echo "$thing"
+done 
+
+# c style for loops 
+max=5
+for ((i=0; i < max ; i++));do 
+   echo "$i"
+done 
 
 
+```
+
+- {} expand a range in bash , inclusive 
+- 
 ## TASK
 -- [zip file to pdf] zip to pdf
 - [mp4 to wav ] convert using vlc 
