@@ -210,11 +210,55 @@ echo "$1 is equal to $2"
 ```
 
 
-#### GLOB
+## code   
+```
 
-- - : wild card
 
-#### Flag :
+#!/usr/bin/bash bash
+
+check(){
+  if [[ 1 == 2]];then
+    echo 'not equal'
+  else 
+echo 'equal'
+sleep 2 
+  fi 
+}
+
+check2(){
+  while [[-f ysap_notes.md ]]; do 
+      echo 'file exists'
+
+  done 
+}
+
+check3(){
+  if ls ; then 
+    echo 'ls worked'
+  else 
+    echo 'didnt worked'
+}
+check4(){
+  if true;then 
+elif false ; then 
+elif [[ false ]]; then
+    echo 'elif false'
+    }
+```
+
+
+
+- 
+- shift v to select , y : yank / copy , u : undo , ctr + r : redo 
+- `man test` to check all conditions and flags 
+- if statement doesnt need to have [[]] , [[]] doesnt need to be inside if 
+
+- Q : [[]] Vs []
+- - [[]] parsing better then [] , prefer [[]] over []
+
+- # chaining : echo 'hi' && echo 'hihi'
+
+
 
 ## TASK
 -- [zip file to pdf] zip to pdf
