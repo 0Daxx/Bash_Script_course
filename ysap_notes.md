@@ -286,6 +286,22 @@ done
 - read by default reads 1 line , unless delimeter is changed 
 - 
 
+## Lesson 60 : Alias Pitfalls 
+![60_1](img/60_1.png)
+- alias basically replace the command saved as alias 
+- So , `greet dave `  becomes `echo hello $1 nice to meet you dave `  as dave is appended at the end 
+
+
+### Q how to get Alias with arguments  ONE must not do that 
+### Sol:  better to use function as alias 
+
+![60_2](img/60_2.png)
+- `unset -f ` unsets a function 
+
+![60_3](img/60_3.png)
+- `set -- a b c ` 
+- -- : tells bash to stop processing argument 
+
 ## Lesson 61
 ``code``
 
