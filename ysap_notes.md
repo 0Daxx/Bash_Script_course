@@ -286,6 +286,20 @@ done
 - read by default reads 1 line , unless delimeter is changed 
 - 
 
+## Lesson 58 : Readline shortcuts 
+### readline is a library that is used by bash and other terminal program like node 
+- alt b : backward ,
+- alt f : forward 
+- alt backspace : deletes word 
+
+- ctr a : get to beginning 
+- ctr e : get to end 
+- ctr w : delete 1 word back  
+- ctr u : delete entire line to left 
+- ctr b : 1 character backward 
+- ctr f : 1 character frwd 
+
+
 ## Lesson 60 : Alias Pitfalls 
 ![60_1](img/60_1.png)
 - alias basically replace the command saved as alias 
