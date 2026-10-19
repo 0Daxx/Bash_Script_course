@@ -274,10 +274,29 @@ done
 
 ```
 
+## Lesson 17 
+
+- null command `:` , `help :` says no effect , command does nothing 
+-  
+
 - {} expand a range in bash , inclusive 
+
+` read -r  user_input `
+- -r : do not allow backslashes to escape any characters
+- read by default reads 1 line , unless delimeter is changed 
 - 
+![echo](bash.png) 
+
+
+
+
+
 ## TASK
 -- [zip file to pdf] zip to pdf
 - [mp4 to wav ] convert using vlc 
 - [clean download folder] clean script 
+
+
+## Vim/nvim shortcut 
+- ctr / : open terminal 
 
