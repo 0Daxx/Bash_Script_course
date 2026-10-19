@@ -23,3 +23,9 @@ if (validate_file == 0); then
 else
   exit 1
 fi
+
+### FUTURE improvements
+# - proper flow
+# using variable instead of $1
+# change the temp folder named , if argument file path has / or whitespace create folder name accordingly
+#
