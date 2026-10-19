@@ -285,9 +285,18 @@ done
 - -r : do not allow backslashes to escape any characters
 - read by default reads 1 line , unless delimeter is changed 
 - 
-![echo](bash.png) 
 
+## Lesson 61
+``code``
 
+![echo](61_1.png) 
+
+``` 
+#<str> -> length of string 
+
+```
+
+![61_2](61_2.png)
 
 
 
